@@ -143,14 +143,52 @@ council/
 
 ## Configuration
 
-### Model Assignments
+### Model Assignments (IMPORTANT)
 
-Edit agent frontmatter to change model assignments:
+**The default model assignments are configured for our local setup.** You must adapt them to your available models.
+
+**Current assignments:**
+
+| Model | Personas |
+|-------|----------|
+| **GLM-5** (bailian-coding-plan) | Aristotle, Socrates, Aurelius, Lao Tzu, Watts, Sutskever, Kahneman, Taleb |
+| **Kimi K2.5** (kimi-for-coding) | Feynman, Torvalds, Sun Tzu, Ada, Machiavelli, Musashi, Karpathy, Meadows, Munger, Rams |
+
+**Principle:** Split polarity pairs across different models for genuine cognitive diversity. Assign "deep reasoning" personas to your most capable model and "pragmatic/building" personas to your secondary model.
+
+**To find your configured models:**
+
+```bash
+# List all available models in your OpenCode setup
+opencode models
+
+# Or check your config file
+cat ~/.config/opencode/opencode.json | grep -A 5 '"models"'
+```
+
+**To change model assignments:**
+
+Edit each persona agent file in `agents/council-{name}.md`:
 
 ```yaml
 ---
-model: bailian-coding-plan/glm-5   # or kimi-for-coding/k2p5
+model: your-provider/your-model   # Change this line
+temperature: 0.3                   # Adjust if needed
 ---
+```
+
+**Example:** If you only have one model (e.g., `gpt-4`), assign all personas to it:
+
+```yaml
+---
+model: openai/gpt-4
+---
+```
+
+**After changing models, reinstall:**
+
+```bash
+./install.sh
 ```
 
 ### Adding New Personas
