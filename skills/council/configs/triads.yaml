@@ -1,0 +1,61 @@
+triads:
+  architecture:
+    members: [aristotle, ada, feynman]
+    rationale: "Classify + formalize + simplicity-test"
+  strategy:
+    members: [sun-tzu, machiavelli, aurelius]
+    rationale: "Terrain + incentives + moral grounding"
+  ethics:
+    members: [aurelius, socrates, lao-tzu]
+    rationale: "Duty + questioning + natural order"
+  debugging:
+    members: [feynman, socrates, ada]
+    rationale: "Bottom-up + assumption testing + formal verification"
+  innovation:
+    members: [ada, lao-tzu, aristotle]
+    rationale: "Abstraction + emergence + classification"
+  conflict:
+    members: [socrates, machiavelli, aurelius]
+    rationale: "Expose + predict + ground"
+  complexity:
+    members: [lao-tzu, aristotle, ada]
+    rationale: "Emergence + categories + formalism"
+  risk:
+    members: [sun-tzu, aurelius, feynman]
+    rationale: "Threats + resilience + empirical verification"
+  shipping:
+    members: [torvalds, musashi, feynman]
+    rationale: "Pragmatism + timing + first-principles"
+  product:
+    members: [torvalds, machiavelli, watts]
+    rationale: "Ship it + incentives + reframing"
+  founder:
+    members: [musashi, sun-tzu, torvalds]
+    rationale: "Timing + terrain + engineering reality"
+  ai:
+    members: [karpathy, sutskever, ada]
+    rationale: "Empirical ML + scaling frontier + formal limits"
+  ai-product:
+    members: [karpathy, torvalds, machiavelli]
+    rationale: "ML capability + shipping pragmatism + incentives"
+  ai-safety:
+    members: [sutskever, aurelius, socrates]
+    rationale: "Safety frontier + moral clarity + assumption destruction"
+  decision:
+    members: [kahneman, munger, aurelius]
+    rationale: "Bias detection + inversion + moral clarity"
+  systems:
+    members: [meadows, lao-tzu, aristotle]
+    rationale: "Feedback loops + emergence + categories"
+  uncertainty:
+    members: [taleb, sun-tzu, sutskever]
+    rationale: "Tail risk + terrain + scaling frontier"
+  design:
+    members: [rams, torvalds, watts]
+    rationale: "User clarity + maintainability + reframing"
+  economics:
+    members: [munger, machiavelli, sun-tzu]
+    rationale: "Models + incentives + competition"
+  bias:
+    members: [kahneman, socrates, watts]
+    rationale: "Cognitive bias + assumption destruction + frame audit"

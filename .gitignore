@@ -1,0 +1,20 @@
+# Council of High Intelligence for OpenCode
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Test artifacts
+test-output/
+sessions/
+
+# Temporary files
+*.tmp
+*.log

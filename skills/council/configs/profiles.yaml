@@ -1,0 +1,23 @@
+profiles:
+  classic:
+    members: [aristotle, socrates, sun-tzu, ada, aurelius, machiavelli, lao-tzu, feynman, torvalds, musashi, watts, karpathy, sutskever, kahneman, meadows, munger, taleb, rams]
+    description: "All 18 members with domain triads"
+  
+  exploration-orthogonal:
+    members: [socrates, feynman, sun-tzu, machiavelli, ada, lao-tzu, aurelius, torvalds, karpathy, sutskever, kahneman, meadows]
+    description: "12-member panel for discovery and unknown-unknowns reduction"
+    triads:
+      unknowns: [socrates, lao-tzu, feynman]
+      market-entry: [sun-tzu, machiavelli, aurelius]
+      system-design: [ada, feynman, torvalds]
+      reframing: [socrates, lao-tzu, ada]
+      ai-frontier: [karpathy, sutskever, ada]
+      blind-spots: [kahneman, meadows, socrates]
+  
+  execution-lean:
+    members: [torvalds, feynman, sun-tzu, aurelius, ada]
+    description: "5-member panel for fast decision-to-action"
+    triads:
+      ship-now: [torvalds, feynman, aurelius]
+      launch-strategy: [sun-tzu, torvalds, machiavelli]
+      stability: [ada, feynman, aurelius]
